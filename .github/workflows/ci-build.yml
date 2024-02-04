@@ -28,5 +28,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
-          name: CacheCleaner-Debug-CI.APK
+          name: HYDragon-Debug-CI.JAR
           path: build/libs/hydragon-minsize.jar
