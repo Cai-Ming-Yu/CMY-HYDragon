@@ -13,7 +13,7 @@ Then, use the command ```app_process -Djava.class.path=<path to dex file> ./ tok
 The project also provides a sh file that can be downloaded via ```hydragon.sh dl <url> <output file>```, ```<output file>``` is again optional and ```hydragon.dex``` should be in the same directory as ```hydragon.sh```.
 
 This project is expected to have many uses, here is the full functionality:
- - ```dl <url> <output file>``, where ```<output file>``` is optional, this function is used to download to a file, ```<output file>``` will output the downloaded content directly if it doesn't exist
+ - ```dl <url> <output file>```, where ```<output file>``` is optional, this function is used to download to a file, ```<output file>``` will output the downloaded content directly if it doesn't exist
  - Due to environmental constraints, encryption is not possible at the moment, so please stay tuned.
 <!--
  - ```enstr <key> <str> <output file>``` where ```<output file>``` is optional, this function is used to encrypt strings with aes, ```<output file>``` will output the encrypted content directly if it does not exist.
