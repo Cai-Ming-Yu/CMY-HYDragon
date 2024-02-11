@@ -25,6 +25,6 @@ This project is expected to have many uses, here is the full functionality:
 
 You can also build the Jar yourself by downloading the project's source code (e.g., via ```./gradlew proguard``` to build the Jar).
 
-Debug CI Version: https://github.com/Cai-Ming-Yu/CMY-HYDragon/actions
+CI Version: https://github.com/Cai-Ming-Yu/CMY-HYDragon/actions
 
 ## [License](https://github.com/Cai-Ming-Yu/CMY-HYDragon/blob/C-M-Y/LICENSE)
