@@ -5,10 +5,9 @@ for path in \
   '/bin/app_process64' \
   '/bin/app_process' \
   '/system/bin/app_process64' \
-  '/system/bin/app_process'
-    do
-      [[ -f "${path}" ]] && app_process_path="${path}"
-      break
+  '/system/bin/app_process'; do
+  [[ -f "${path}" ]] && app_process_path="${path}"
+  break
 done
 [[ "${app_process_path}" == '' ]] && {
   echo 'cannot find app_process'
